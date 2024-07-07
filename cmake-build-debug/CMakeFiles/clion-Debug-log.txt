@@ -1,0 +1,9 @@
+/home/dongwook/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/dongwook/.local/share/JetBrains/Toolbox/apps/clion/bin/ninja/linux/x64/ninja -G Ninja -S /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table -B /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/cmake-build-debug
+CMake Warning at CMakeLists.txt:2 (project):
+  DESCRIPTION keyword not followed by a value or was followed by a value that
+  expanded to nothing.
+
+
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/cmake-build-debug
