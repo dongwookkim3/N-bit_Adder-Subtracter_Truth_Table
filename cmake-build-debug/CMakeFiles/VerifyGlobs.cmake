@@ -15,6 +15,7 @@ endif()
 # SOURCE_FILES at src/CMakeLists.txt:1 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/src/*.h")
 set(OLD_GLOB
+  "/home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/src/Include/Information.h"
   "/home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/src/Include/main.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")

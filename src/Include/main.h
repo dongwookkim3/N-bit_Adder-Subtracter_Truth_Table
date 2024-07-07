@@ -4,10 +4,10 @@
 #define MAIN_H
 
 #include <iostream>
-#include <vector>
 #include <cmath>
-#include <tuple>
 #include <algorithm>
+#include <bitset>
+#include "Information.h"
 
 using namespace std;
 

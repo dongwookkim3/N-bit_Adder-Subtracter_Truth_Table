@@ -1,20 +1,29 @@
 #include "Include/main.h"
 
 int main() {
-    vector<tuple<int,int,int>> V;
-    int N;
-    bool M;
+    Information Info;
+    int N,M;
     cin >> N >> M;
-    for (int i=0;i<pow(2,N);i++) {
-        for (int j=0;j<pow(2,N);j++) {
-            if (M==false) V.push_back({i,j,i+j});
-            else V.push_back({i,j,i-j});
+    Info.setN(N);
+    Info.setM(M);
+    for (int i=0;i<pow(2,Info.getN());i++) {
+        for (int j=0;j<pow(2,Info.getN());j++) {
+            if (Info.getN()==false) Info.pushV({i,j,i+j});
+            else Info.pushV({i,j,i-j});
         }
     }
-    for (int i=0;i<V.size();i++) {
-        cout << get<0>(V[i]) << ' ';
-        cout << get<1>(V[i]) << ' ';
-        cout << get<2>(V[i]) << "\n";
+
+    for (int i=0;i<Info.getVsize();i++) {
+        cout << bitset<7>(Info.getVfirst(i)) << ' ';
+        cout << bitset<7>(Info.getVsecond(i)) << ' ';
+        cout << bitset<7>(Info.getVthird(i)) << "\n";
     }
+    /*
+    for (int i=0;i<Info.getVsize();i++) {
+        cout << Info.getVfirst(i) << ' ';
+        cout << Info.getVsecond(i) << ' ';
+        cout << Info.getVthird(i) << "\n";
+    }
+    */
     return 0;
 }
