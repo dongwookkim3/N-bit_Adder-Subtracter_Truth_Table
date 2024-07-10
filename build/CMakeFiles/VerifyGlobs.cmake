@@ -10,7 +10,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/cmake-build-debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # SOURCE_FILES at src/CMakeLists.txt:1 (file)
@@ -21,7 +21,7 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/cmake-build-debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # SOURCE_FILES at src/CMakeLists.txt:1 (file)
@@ -30,5 +30,5 @@ set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/cmake-build-debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build/CMakeFiles/cmake.verify_globs")
 endif()

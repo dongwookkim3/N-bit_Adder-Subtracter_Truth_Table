@@ -1,0 +1,5 @@
+/home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build/CMakeFiles/edit_cache.dir
+/home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build/CMakeFiles/rebuild_cache.dir
+/home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build/src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir
+/home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build/src/CMakeFiles/edit_cache.dir
+/home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build/src/CMakeFiles/rebuild_cache.dir

@@ -12,21 +12,21 @@ class Information {
 private:
     int N;
     bool M;
-    vector<tuple<int,int,int>> V;
+    vector<tuple<int, int, int>> V;
 public:
     void setN(int _N) {
         N = _N;
     }
-    void setM(int _M) {
+    void setM(bool _M) {
         M = _M;
     }
-    void pushV(tuple<int,int,int> _T) {
+    void pushV(tuple<int, int, int> _T) {
         V.push_back(_T);
     }
-    int getN(void) {
+    int getN() {
         return N;
     }
-    int getM(void) {
+    bool getM() {
         return M;
     }
     int getVfirst(int index) {
@@ -38,9 +38,11 @@ public:
     int getVthird(int index) {
         return get<2>(V[index]);
     }
-    int getVsize(void) {
+    int getVsize() {
         return V.size();
     }
 };
 
-#endif //INFORMATION_H
+extern Information information;
+
+#endif // INFORMATION_H
