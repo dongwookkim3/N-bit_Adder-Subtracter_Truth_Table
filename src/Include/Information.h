@@ -6,28 +6,26 @@
 #include <vector>
 #include <tuple>
 
-using namespace std;
-
 class Information {
 private:
     int n_;
     bool m_;
-    vector<tuple<int, int, int> > v_;
+    std::vector<std::tuple<int, int, int> > v_;
 
 public:
     void set_n(int n);
 
     void set_m(bool m);
 
-    void push_v(const tuple<int, int, int> &t);
+    void push_v(const std::tuple<int, int, int> &t);
 
     [[nodiscard]] int get_n() const;
 
     [[nodiscard]] bool get_m() const;
 
-    vector<tuple<int, int, int>>::iterator get_vbegin();
+    std::vector<std::tuple<int, int, int> >::iterator get_vbegin();
 
-    vector<tuple<int, int, int>>::iterator get_vend();
+    std::vector<std::tuple<int, int, int> >::iterator get_vend();
 
     [[nodiscard]] int get_vfirst(int index) const;
 

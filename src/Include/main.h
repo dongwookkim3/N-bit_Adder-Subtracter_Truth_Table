@@ -10,6 +10,4 @@
 #include "Information.h"
 #include "sort.h"
 
-using namespace std;
-
 #endif //MAIN_H

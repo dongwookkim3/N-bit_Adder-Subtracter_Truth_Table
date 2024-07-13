@@ -10,7 +10,7 @@ void Information::set_m(const bool m) {
     this->m_ = m;
 }
 
-void Information::push_v(const tuple<int, int, int> &t) {
+void Information::push_v(const std::tuple<int, int, int> &t) {
     this->v_.push_back(t);
 }
 
@@ -22,24 +22,24 @@ bool Information::get_m() const {
     return this->m_;
 }
 
-vector<tuple<int, int, int>>::iterator Information::get_vbegin() {
+std::vector<std::tuple<int, int, int> >::iterator Information::get_vbegin() {
     return this->v_.begin();
 }
 
-vector<tuple<int, int, int>>::iterator Information::get_vend() {
+std::vector<std::tuple<int, int, int> >::iterator Information::get_vend() {
     return this->v_.end();
 }
 
 int Information::get_vfirst(const int index) const {
-    return get<0>(this->v_[index]);
+    return std::get<0>(this->v_[index]);
 }
 
 int Information::get_vsecond(const int index) const {
-    return get<1>(this->v_[index]);
+    return std::get<1>(this->v_[index]);
 }
 
 int Information::get_vthird(const int index) const {
-    return get<2>(this->v_[index]);
+    return std::get<2>(this->v_[index]);
 }
 
 size_t Information::get_vsize() const {

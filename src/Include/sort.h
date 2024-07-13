@@ -5,8 +5,7 @@
 
 #include <tuple>
 #include "Information.h"
-using namespace std;
 
-bool compare(const tuple<int,int,int> &a, const tuple<int,int,int> &b);
+bool compare(const std::tuple<int, int, int> &a, const std::tuple<int, int, int> &b);
 
 #endif //SORT_H
