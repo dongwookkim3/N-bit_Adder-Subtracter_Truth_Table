@@ -10,37 +10,32 @@ using namespace std;
 
 class Information {
 private:
-    int N;
-    bool M;
-    vector<tuple<int, int, int>> V;
+    int n_;
+    bool m_;
+    vector<tuple<int, int, int> > v_;
+
 public:
-    void setN(int _N) {
-        N = _N;
-    }
-    void setM(bool _M) {
-        M = _M;
-    }
-    void pushV(tuple<int, int, int> _T) {
-        V.push_back(_T);
-    }
-    int getN() {
-        return N;
-    }
-    bool getM() {
-        return M;
-    }
-    int getVfirst(int index) {
-        return get<0>(V[index]);
-    }
-    int getVsecond(int index) {
-        return get<1>(V[index]);
-    }
-    int getVthird(int index) {
-        return get<2>(V[index]);
-    }
-    int getVsize() {
-        return V.size();
-    }
+    void set_n(int n);
+
+    void set_m(bool m);
+
+    void push_v(const tuple<int, int, int> &t);
+
+    [[nodiscard]] int get_n() const;
+
+    [[nodiscard]] bool get_m() const;
+
+    vector<tuple<int, int, int>>::iterator get_vbegin();
+
+    vector<tuple<int, int, int>>::iterator get_vend();
+
+    [[nodiscard]] int get_vfirst(int index) const;
+
+    [[nodiscard]] int get_vsecond(int index) const;
+
+    [[nodiscard]] int get_vthird(int index) const;
+
+    [[nodiscard]] size_t get_vsize() const;
 };
 
 extern Information information;

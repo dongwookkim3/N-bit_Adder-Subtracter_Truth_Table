@@ -131,29 +131,29 @@ N_bit_Subtractor_Truth_Table/fast:
 	cd /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/build.make src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/build
 .PHONY : N_bit_Subtractor_Truth_Table/fast
 
-Resource/Information.o: Resource/Information.cpp.o
-.PHONY : Resource/Information.o
+Resource/information.o: Resource/information.cpp.o
+.PHONY : Resource/information.o
 
 # target to build an object file
-Resource/Information.cpp.o:
-	cd /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/build.make src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/Information.cpp.o
-.PHONY : Resource/Information.cpp.o
+Resource/information.cpp.o:
+	cd /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/build.make src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/information.cpp.o
+.PHONY : Resource/information.cpp.o
 
-Resource/Information.i: Resource/Information.cpp.i
-.PHONY : Resource/Information.i
+Resource/information.i: Resource/information.cpp.i
+.PHONY : Resource/information.i
 
 # target to preprocess a source file
-Resource/Information.cpp.i:
-	cd /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/build.make src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/Information.cpp.i
-.PHONY : Resource/Information.cpp.i
+Resource/information.cpp.i:
+	cd /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/build.make src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/information.cpp.i
+.PHONY : Resource/information.cpp.i
 
-Resource/Information.s: Resource/Information.cpp.s
-.PHONY : Resource/Information.s
+Resource/information.s: Resource/information.cpp.s
+.PHONY : Resource/information.s
 
 # target to generate assembly for a file
-Resource/Information.cpp.s:
-	cd /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/build.make src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/Information.cpp.s
-.PHONY : Resource/Information.cpp.s
+Resource/information.cpp.s:
+	cd /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/build.make src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/information.cpp.s
+.PHONY : Resource/information.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -188,9 +188,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... N_bit_Subtractor_Truth_Table"
-	@echo "... Resource/Information.o"
-	@echo "... Resource/Information.i"
-	@echo "... Resource/Information.s"
+	@echo "... Resource/information.o"
+	@echo "... Resource/information.i"
+	@echo "... Resource/information.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

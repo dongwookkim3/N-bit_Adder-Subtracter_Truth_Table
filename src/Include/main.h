@@ -8,6 +8,7 @@
 #include <algorithm>
 #include <bitset>
 #include "Information.h"
+#include "sort.h"
 
 using namespace std;
 

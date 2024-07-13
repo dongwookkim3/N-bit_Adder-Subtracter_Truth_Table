@@ -1,7 +1,7 @@
-src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/Information.cpp.o: \
- /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/src/Resource/Information.cpp \
+src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/information.cpp.o: \
+ /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/src/Resource/information.cpp \
  /usr/include/stdc-predef.h \
- /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/src/Resource/../Include/Information.h \
+ /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/src/Resource/../Include/information.h \
  /usr/include/c++/13/vector /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \

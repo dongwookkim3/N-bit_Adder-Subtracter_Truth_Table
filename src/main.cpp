@@ -1,20 +1,21 @@
 #include "Include/main.h"
 
 int main() {
-    int N,M;
-    cin >> N >> M;
-    information.setN(N);
-    information.setM(M);
-    for (int i=0;i<pow(2,information.getN());i++) {
-        for (int j=0;j<pow(2,information.getN());j++) {
-            if (information.getN()==false) information.pushV({i,j,i+j});
-            else information.pushV({i,j,i-j});
+    int n,m;
+    cin >> n >> m;
+    information.set_n(n);
+    information.set_m(m);
+    for (int i = 0; i < pow(2, information.get_n()); i++) {
+        for (int j = 0; j < pow(2, information.get_n()); j++) {
+            if (information.get_m() == false) information.push_v({i, j, i + j});
+            else information.push_v({i, j, i - j});
         }
     }
-    for (int i=0;i<information.getVsize();i++) {
-        cout << bitset<8>(information.getVfirst(i)) << ' ';
-        cout << bitset<8>(information.getVsecond(i)) << ' ';
-        cout << bitset<8>(information.getVthird(i)) << "\n";
+    sort(information.get_vbegin(), information.get_vend(), compare);
+    for (int i=0;i<information.get_vsize();i++) {
+        cout << bitset<8>(information.get_vfirst(i)) << ' ';
+        cout << bitset<8>(information.get_vsecond(i)) << ' ';
+        cout << bitset<8>(information.get_vthird(i)) << "\n";
     }
     return 0;
 }
