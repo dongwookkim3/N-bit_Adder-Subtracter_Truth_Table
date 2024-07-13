@@ -430,17 +430,17 @@
    getting matched.  Store it in a pointer rather than an array
    because some compilers will just produce instructions to fill the
    array rather than assigning a pointer to a static array.  */
-char const* info_compiler = "info" ":" "compiler[" COMPILER_ID "]";
+char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
 #ifdef SIMULATE_ID
-char const* info_simulate = "info" ":" "simulate[" SIMULATE_ID "]";
+char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";
 #endif
 
 #ifdef __QNXNTO__
-char const* qnxnto = "info" ":" "qnxnto[]";
+char const* qnxnto = "INFO" ":" "qnxnto[]";
 #endif
 
 #if defined(__CRAYXT_COMPUTE_LINUX_TARGET)
-char const *info_cray = "info" ":" "compiler_wrapper[CrayPrgEnv]";
+char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";
 #endif
 
 #define STRINGIFY_HELPER(X) #X
@@ -739,7 +739,7 @@ char const *info_cray = "info" ":" "compiler_wrapper[CrayPrgEnv]";
 
 /* Construct a string literal encoding the version number. */
 #ifdef COMPILER_VERSION
-char const* info_version = "info" ":" "compiler_version[" COMPILER_VERSION "]";
+char const* info_version = "INFO" ":" "compiler_version[" COMPILER_VERSION "]";
 
 /* Construct a string literal encoding the version number components. */
 #elif defined(COMPILER_VERSION_MAJOR)
@@ -767,7 +767,7 @@ char const info_version_internal[] = {
   'i','n','t','e','r','n','a','l','[',
   COMPILER_VERSION_INTERNAL,']','\0'};
 #elif defined(COMPILER_VERSION_INTERNAL_STR)
-char const* info_version_internal = "info" ":" "compiler_version_internal[" COMPILER_VERSION_INTERNAL_STR "]";
+char const* info_version_internal = "INFO" ":" "compiler_version_internal[" COMPILER_VERSION_INTERNAL_STR "]";
 #endif
 
 /* Construct a string literal encoding the version number components. */
@@ -792,8 +792,8 @@ char const info_simulate_version[] = {
    getting matched.  Store it in a pointer rather than an array
    because some compilers will just produce instructions to fill the
    array rather than assigning a pointer to a static array.  */
-char const* info_platform = "info" ":" "platform[" PLATFORM_ID "]";
-char const* info_arch = "info" ":" "arch[" ARCHITECTURE_ID "]";
+char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";
+char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";
 
 
 
@@ -813,7 +813,7 @@ char const* info_arch = "info" ":" "arch[" ARCHITECTURE_ID "]";
 #  define CXX_STD __cplusplus
 #endif
 
-const char* info_language_standard_default = "info" ":" "standard_default["
+const char* info_language_standard_default = "INFO" ":" "standard_default["
 #if CXX_STD > 202002L
   "23"
 #elif CXX_STD > 201703L
@@ -829,7 +829,7 @@ const char* info_language_standard_default = "info" ":" "standard_default["
 #endif
 "]";
 
-const char* info_language_extensions_default = "info" ":" "extensions_default["
+const char* info_language_extensions_default = "INFO" ":" "extensions_default["
 #if (defined(__clang__) || defined(__GNUC__) || defined(__xlC__) ||           \
      defined(__TI_COMPILER_VERSION__)) &&                                     \
   !defined(__STRICT_ANSI__)

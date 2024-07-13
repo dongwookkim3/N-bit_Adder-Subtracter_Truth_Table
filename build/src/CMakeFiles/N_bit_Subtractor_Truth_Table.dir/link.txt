@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/information.cpp.o CMakeFiles/N_bit_Subtractor_Truth_Table.dir/main.cpp.o -o N_bit_Subtractor_Truth_Table
+/usr/bin/c++ CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/Information.cpp.o CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/sort.cpp.o CMakeFiles/N_bit_Subtractor_Truth_Table.dir/main.cpp.o -o N_bit_Subtractor_Truth_Table 

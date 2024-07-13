@@ -69,24 +69,38 @@ include src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/flags.make
 
-src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/information.cpp.o: src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/flags.make
-src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/information.cpp.o: /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/src/Resource/information.cpp
-src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/information.cpp.o: src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/information.cpp.o"
-	cd /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/information.cpp.o -MF CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/information.cpp.o.d -o CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/information.cpp.o -c /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/src/Resource/information.cpp
+src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/Information.cpp.o: src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/flags.make
+src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/Information.cpp.o: /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/src/Resource/Information.cpp
+src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/Information.cpp.o: src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/Information.cpp.o"
+	cd /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/Information.cpp.o -MF CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/Information.cpp.o.d -o CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/Information.cpp.o -c /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/src/Resource/Information.cpp
 
-src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/information.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/information.cpp.i"
-	cd /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/src/Resource/information.cpp > CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/information.cpp.i
+src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/Information.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/Information.cpp.i"
+	cd /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/src/Resource/Information.cpp > CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/Information.cpp.i
 
-src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/information.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/information.cpp.s"
-	cd /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/src/Resource/information.cpp -o CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/information.cpp.s
+src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/Information.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/Information.cpp.s"
+	cd /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/src/Resource/Information.cpp -o CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/Information.cpp.s
+
+src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/sort.cpp.o: src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/flags.make
+src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/sort.cpp.o: /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/src/Resource/sort.cpp
+src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/sort.cpp.o: src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/sort.cpp.o"
+	cd /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/sort.cpp.o -MF CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/sort.cpp.o.d -o CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/sort.cpp.o -c /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/src/Resource/sort.cpp
+
+src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/sort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/sort.cpp.i"
+	cd /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/src/Resource/sort.cpp > CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/sort.cpp.i
+
+src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/sort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/sort.cpp.s"
+	cd /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/src/Resource/sort.cpp -o CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/sort.cpp.s
 
 src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/main.cpp.o: src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/flags.make
 src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/main.cpp.o: /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/src/main.cpp
 src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/main.cpp.o: src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/main.cpp.o"
 	cd /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/main.cpp.o -MF CMakeFiles/N_bit_Subtractor_Truth_Table.dir/main.cpp.o.d -o CMakeFiles/N_bit_Subtractor_Truth_Table.dir/main.cpp.o -c /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/src/main.cpp
 
 src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/main.cpp.i: cmake_force
@@ -99,17 +113,19 @@ src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/main.cpp.s: cmake_force
 
 # Object files for target N_bit_Subtractor_Truth_Table
 N_bit_Subtractor_Truth_Table_OBJECTS = \
-"CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/information.cpp.o" \
+"CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/Information.cpp.o" \
+"CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/sort.cpp.o" \
 "CMakeFiles/N_bit_Subtractor_Truth_Table.dir/main.cpp.o"
 
 # External object files for target N_bit_Subtractor_Truth_Table
 N_bit_Subtractor_Truth_Table_EXTERNAL_OBJECTS =
 
-src/N_bit_Subtractor_Truth_Table: src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/information.cpp.o
+src/N_bit_Subtractor_Truth_Table: src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/Information.cpp.o
+src/N_bit_Subtractor_Truth_Table: src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/sort.cpp.o
 src/N_bit_Subtractor_Truth_Table: src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/main.cpp.o
 src/N_bit_Subtractor_Truth_Table: src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/build.make
 src/N_bit_Subtractor_Truth_Table: src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable N_bit_Subtractor_Truth_Table"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable N_bit_Subtractor_Truth_Table"
 	cd /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/N_bit_Subtractor_Truth_Table.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -121,6 +137,6 @@ src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/clean:
 .PHONY : src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/clean
 
 src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/depend:
-	cd /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/src /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build/src /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build/src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Dependinfo.cmake "--color=$(COLOR)"
+	cd /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/src /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build/src /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build/src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/depend
 

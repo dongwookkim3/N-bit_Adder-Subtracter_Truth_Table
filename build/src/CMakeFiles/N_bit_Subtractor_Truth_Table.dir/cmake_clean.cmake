@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/information.cpp.o"
-  "CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/information.cpp.o.d"
+  "CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/Information.cpp.o"
+  "CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/Information.cpp.o.d"
+  "CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/sort.cpp.o"
+  "CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/sort.cpp.o.d"
   "CMakeFiles/N_bit_Subtractor_Truth_Table.dir/main.cpp.o"
   "CMakeFiles/N_bit_Subtractor_Truth_Table.dir/main.cpp.o.d"
   "N_bit_Subtractor_Truth_Table"

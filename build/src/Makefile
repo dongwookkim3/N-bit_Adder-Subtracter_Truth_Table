@@ -131,29 +131,53 @@ N_bit_Subtractor_Truth_Table/fast:
 	cd /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/build.make src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/build
 .PHONY : N_bit_Subtractor_Truth_Table/fast
 
-Resource/information.o: Resource/information.cpp.o
-.PHONY : Resource/information.o
+Resource/Information.o: Resource/Information.cpp.o
+.PHONY : Resource/Information.o
 
 # target to build an object file
-Resource/information.cpp.o:
-	cd /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/build.make src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/information.cpp.o
-.PHONY : Resource/information.cpp.o
+Resource/Information.cpp.o:
+	cd /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/build.make src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/Information.cpp.o
+.PHONY : Resource/Information.cpp.o
 
-Resource/information.i: Resource/information.cpp.i
-.PHONY : Resource/information.i
+Resource/Information.i: Resource/Information.cpp.i
+.PHONY : Resource/Information.i
 
 # target to preprocess a source file
-Resource/information.cpp.i:
-	cd /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/build.make src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/information.cpp.i
-.PHONY : Resource/information.cpp.i
+Resource/Information.cpp.i:
+	cd /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/build.make src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/Information.cpp.i
+.PHONY : Resource/Information.cpp.i
 
-Resource/information.s: Resource/information.cpp.s
-.PHONY : Resource/information.s
+Resource/Information.s: Resource/Information.cpp.s
+.PHONY : Resource/Information.s
 
 # target to generate assembly for a file
-Resource/information.cpp.s:
-	cd /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/build.make src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/information.cpp.s
-.PHONY : Resource/information.cpp.s
+Resource/Information.cpp.s:
+	cd /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/build.make src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/Information.cpp.s
+.PHONY : Resource/Information.cpp.s
+
+Resource/sort.o: Resource/sort.cpp.o
+.PHONY : Resource/sort.o
+
+# target to build an object file
+Resource/sort.cpp.o:
+	cd /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/build.make src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/sort.cpp.o
+.PHONY : Resource/sort.cpp.o
+
+Resource/sort.i: Resource/sort.cpp.i
+.PHONY : Resource/sort.i
+
+# target to preprocess a source file
+Resource/sort.cpp.i:
+	cd /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/build.make src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/sort.cpp.i
+.PHONY : Resource/sort.cpp.i
+
+Resource/sort.s: Resource/sort.cpp.s
+.PHONY : Resource/sort.s
+
+# target to generate assembly for a file
+Resource/sort.cpp.s:
+	cd /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/build.make src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/sort.cpp.s
+.PHONY : Resource/sort.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -188,9 +212,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... N_bit_Subtractor_Truth_Table"
-	@echo "... Resource/information.o"
-	@echo "... Resource/information.i"
-	@echo "... Resource/information.s"
+	@echo "... Resource/Information.o"
+	@echo "... Resource/Information.i"
+	@echo "... Resource/Information.s"
+	@echo "... Resource/sort.o"
+	@echo "... Resource/sort.i"
+	@echo "... Resource/sort.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -180,8 +180,9 @@ src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/main.cpp.o: \
  /usr/include/c++/13/bits/stl_tempbuf.h \
  /usr/include/c++/13/pstl/glue_algorithm_defs.h \
  /usr/include/c++/13/pstl/execution_defs.h /usr/include/c++/13/bitset \
- /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/src/Include/information.h \
+ /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/src/Include/Information.h \
  /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_uninitialized.h \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
- /usr/include/c++/13/bits/vector.tcc
+ /usr/include/c++/13/bits/vector.tcc \
+ /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/src/Include/sort.h

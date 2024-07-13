@@ -96,12 +96,12 @@ src/clean: src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/clean
 src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/build.make src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/build.make src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build/CMakeFiles --progress-num=1,2,3 "Built target N_bit_Subtractor_Truth_Table"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build/CMakeFiles --progress-num=1,2,3,4 "Built target N_bit_Subtractor_Truth_Table"
 .PHONY : src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/rule
