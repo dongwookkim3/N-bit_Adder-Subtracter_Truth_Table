@@ -1,5 +1,7 @@
 #include "Include/main.h"
 
+#include "Include/Print.h"
+
 int main() {
     int n;
     bool m;
@@ -13,10 +15,6 @@ int main() {
         }
     }
     sort(information.get_vbegin(), information.get_vend(), compare);
-    for (int i = 0; i < information.get_vsize(); i++) {
-        std::cout << std::bitset<8>(information.get_vfirst(i)) << ' ';
-        std::cout << std::bitset<8>(information.get_vsecond(i)) << ' ';
-        std::cout << std::bitset<8>(information.get_vthird(i)) << "\n";
-    }
+    Result_Print();
     return 0;
 }
