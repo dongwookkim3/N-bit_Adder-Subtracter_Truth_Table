@@ -5,9 +5,9 @@
 
 #include <iostream>
 #include <cmath>
-#include <algorithm>
-#include <bitset>
 #include "Information.h"
 #include "sort.h"
+#include "Print.h"
+#include "Input.h"
 
 #endif //MAIN_H

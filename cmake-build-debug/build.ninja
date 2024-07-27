@@ -83,6 +83,12 @@ build src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/Information.cpp.o
   OBJECT_DIR = src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir
   OBJECT_FILE_DIR = src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource
 
+build src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/Input.cpp.o: CXX_COMPILER__N_bit_Subtractor_Truth_Table_unscanned_Debug /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/src/Resource/Input.cpp || cmake_object_order_depends_target_N_bit_Subtractor_Truth_Table
+  DEP_FILE = src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/Input.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir
+  OBJECT_FILE_DIR = src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource
+
 build src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/Print.cpp.o: CXX_COMPILER__N_bit_Subtractor_Truth_Table_unscanned_Debug /home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/src/Resource/Print.cpp || cmake_object_order_depends_target_N_bit_Subtractor_Truth_Table
   DEP_FILE = src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/Print.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
@@ -109,7 +115,7 @@ build src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/main.cpp.o: CXX_COMPILER__
 #############################################
 # Link the executable src/N_bit_Subtractor_Truth_Table
 
-build src/N_bit_Subtractor_Truth_Table: CXX_EXECUTABLE_LINKER__N_bit_Subtractor_Truth_Table_Debug src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/Information.cpp.o src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/Print.cpp.o src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/sort.cpp.o src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/main.cpp.o
+build src/N_bit_Subtractor_Truth_Table: CXX_EXECUTABLE_LINKER__N_bit_Subtractor_Truth_Table_Debug src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/Information.cpp.o src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/Input.cpp.o src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/Print.cpp.o src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/sort.cpp.o src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/main.cpp.o
   FLAGS = -g
   OBJECT_DIR = src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir
   POST_BUILD = :

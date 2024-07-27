@@ -1,16 +1,15 @@
 # ninja log v6
 6	221	1720854751417551119	src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/Information.cpp.o	267fb9b83ef147cd
-1	5	1722012951471356501	/home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/cmake-build-debug/CMakeFiles/cmake.verify_globs	fa42e1acd365f862
-6	640	1722012791117604482	src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/main.cpp.o	e3ac3b679b67932d
-640	714	1722012791751581301	src/N_bit_Subtractor_Truth_Table	fd5c8301e3f6e695
-6	40	1722012951491355916	build.ninja	30f5571fdd05b296
-6	164	1720854751417551119	src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/sort.cpp.o	1b8fc8a4ca3f2cfd
-5	30	1722012951491355916	build.ninja	30f5571fdd05b296
-0	5	1722012951500355653	/home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/cmake-build-debug/CMakeFiles/cmake.verify_globs	fa42e1acd365f862
-7	626	1722012951507355448	src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/main.cpp.o	e3ac3b679b67932d
-1	5	1722012959431124879	/home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/cmake-build-debug/CMakeFiles/cmake.verify_globs	fa42e1acd365f862
-6	574	1722012959436124734	src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/Print.cpp.o	1d7ef117d8d86354
-574	653	1722012960004108295	src/N_bit_Subtractor_Truth_Table	2b990af3e668fdb7
-1	7	1722012982215475172	/home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/cmake-build-debug/CMakeFiles/cmake.verify_globs	fa42e1acd365f862
+3	8	1722110841137035416	/home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/cmake-build-debug/CMakeFiles/cmake.verify_globs	fa42e1acd365f862
 7	642	1722012982221475004	src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/main.cpp.o	e3ac3b679b67932d
 643	719	1722012982857457145	src/N_bit_Subtractor_Truth_Table	2b990af3e668fdb7
+5	30	1722111367316084384	build.ninja	30f5571fdd05b296
+6	164	1720854751417551119	src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/sort.cpp.o	1b8fc8a4ca3f2cfd
+6	574	1722012959436124734	src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/Print.cpp.o	1d7ef117d8d86354
+1	6	1722111695340620147	/home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/cmake-build-debug/CMakeFiles/cmake.verify_globs	fa42e1acd365f862
+7	331	1722111695346619862	src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/sort.cpp.o	1b8fc8a4ca3f2cfd
+7	382	1722111695346619862	src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/Input.cpp.o	ccae408a452f573d
+7	614	1722111695346619862	src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/main.cpp.o	e3ac3b679b67932d
+1	6	1722111708079032778	/home/dongwook/CLionProjects/N-bit_Subtractor_Truth_Table/cmake-build-debug/CMakeFiles/cmake.verify_globs	fa42e1acd365f862
+7	458	1722111708085032511	src/CMakeFiles/N_bit_Subtractor_Truth_Table.dir/Resource/Print.cpp.o	1d7ef117d8d86354
+458	546	1722111708536012461	src/N_bit_Subtractor_Truth_Table	fe3e3cae362e49b8

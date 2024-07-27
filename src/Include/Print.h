@@ -3,7 +3,11 @@
 #ifndef PRINT_H
 #define PRINT_H
 
-#include "main.h"
+#include <iostream>
+#include <bitset>
+#include "Information.h"
+
+void Setup_Print();
 
 void Result_Print();
 
